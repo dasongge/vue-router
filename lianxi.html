@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #app{
+            width:1.6rem;
+            height:1.6rem;
+            background: red;
+        }
+    </style>
+    <script>
+        window.onresize = function(){//每当页面改变自动刷新
+            document.documentElement.style.fontSize = 
+            document.documentElement.clientWidth / 3.7 + "px"
+        }
+        
+    </script>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
